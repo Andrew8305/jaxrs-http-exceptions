@@ -6,7 +6,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 /**
- * HTTP 404 
+ * Returns an HTTP 404 status code.
  */
 public class NotFoundException extends WebApplicationException {
 
